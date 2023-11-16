@@ -1,0 +1,150 @@
+Error-Correcting codes 2019-20
+
+Test Results
+
+
+ 
+Part 0. decimalToVector(i,l)
+
+0.0.
+Input:		[15, 4]
+Output:		[1, 1, 1, 1] 
+Solution:	[1, 1, 1, 1] 
+Outcome:	ok
+
+0.1.
+Input:		[25, 6]
+Output:		[0, 1, 1, 0, 0, 1] 
+Solution:	[0, 1, 1, 0, 0, 1] 
+Outcome:	ok
+
+Part 0: 10 marks
+
+
+ 
+Part 1. repetitionEncoder(m,n)
+
+1.0.
+Input:		[[0], 2]
+Output:		[0, 0] 
+Solution:	[0, 0] 
+Outcome:	ok
+
+1.1.
+Input:		[[1], 4]
+Output:		[1, 1, 1, 1] 
+Solution:	[1, 1, 1, 1] 
+Outcome:	ok
+
+Part 1: 10 marks
+
+
+ 
+Part 2. repetitionDecoder(v)
+
+2.0.
+Input:		[0, 0, 1]
+Output:		[0] 
+Solution:	[0] 
+Outcome:	ok
+
+2.1.
+Input:		[1, 1, 1, 1]
+Output:		[1] 
+Solution:	[1] 
+Outcome:	ok
+
+Part 2: 10 marks
+
+
+ 
+Part 3. message(a)
+
+3.0.
+Input:		[1]
+Output:		[0, 0, 1, 1] 
+Solution:	[0, 0, 1, 1] 
+Outcome:	ok
+
+3.1.
+Input:		[0, 0, 1]
+Output:		[0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0] 
+Solution:	[0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0] 
+Outcome:	ok
+
+Part 3: 10 marks
+
+
+ 
+Part 4. hammingEncoder(m)
+
+4.0.
+Input:		[0]
+Output:		[0, 0, 0] 
+Solution:	[0, 0, 0] 
+Outcome:	ok
+
+4.1.
+Input:		[0, 0, 0]
+Output:		[] 
+Solution:	[] 
+Outcome:	ok
+
+Part 4: 10 marks
+
+
+ 
+Part 5. hammingDecoder(v)
+
+5.0.
+Input:		[1, 1, 1]
+Output:		[1, 1, 1] 
+Solution:	[1, 1, 1] 
+Outcome:	ok
+
+5.1.
+Input:		[0, 0, 0, 0, 0, 0, 0]
+Output:		[0, 0, 0, 0, 0, 0, 0] 
+Solution:	[0, 0, 0, 0, 0, 0, 0] 
+Outcome:	ok
+
+Part 5: 20 marks
+
+
+ 
+Part 6. messageFromCodeword(c)
+
+6.0.
+Input:		[1, 1, 1, 1]
+Output:		[1, 1, 1, 1] 
+Solution:	[1, 1, 1, 1] 
+Outcome:	ok
+
+6.1.
+Input:		[0, 0, 0, 0]
+Output:		[] 
+Solution:	[] 
+Outcome:	ok
+
+Part 6: 10 marks
+
+
+ 
+Part 7. dataFromMessage(m)
+
+7.0.
+Input:		[0, 0, 1, 1]
+Output:		[1] 
+Solution:	[1] 
+Outcome:	ok
+
+7.1.
+Input:		[1, 1, 1, 1]
+Output:		[] 
+Solution:	[] 
+Outcome:	ok
+
+Part 7: 20 marks
+
+
+TOTAL = 100 MARKS
